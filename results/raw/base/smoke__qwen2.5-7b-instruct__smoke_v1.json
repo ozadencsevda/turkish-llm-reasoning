@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "run_name": "smoke__qwen2.5-7b-instruct__smoke_v1",
+    "experiment_type": "open_models_base",
+    "dataset_profile": "smoke",
+    "dataset_path": "/content/drive/MyDrive/turkish-llm-reasoning/data/base/smoke_base_v1.csv",
+    "dataset_sha256": "20d742f0441f593d59cc929c7c8d7b9cc9c1efbd10b8224dbc4519935e8e61f9",
+    "raw_dataset_rows": 5,
+    "usable_dataset_rows": 5,
+    "prompt_sha256": "5952958918c52f85e443ce41434418425c3442c85c7d244e1ca3a0f13aa8adaa",
+    "model_label": "qwen2.5-7b-instruct",
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "historical_model": true,
+    "quantization": "4bit_nf4",
+    "do_sample": false,
+    "max_new_tokens": 768,
+    "created_at": "2026-09-30T16:33:13.459155+00:00",
+    "completed_at": "2026-09-30T16:33:27.245756+00:00",
+    "status": "completed",
+    "record_count": 5,
+    "successful_records": 5,
+    "error_records": 0
+  },
+  "records": [
+    {
+      "question_id": "TR-1-018",
+      "category": "temporal_reasoning",
+      "difficulty": "easy",
+      "model_label": "qwen2.5-7b-instruct",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "model_reasoning": "Başlangıç saati 08:30'tır. İlk ders 40 dakika sürer, bu da 09:10'a kadar devam eder. Daha sonra 10 dakika teneffüs yapılır, bu da 09:20'a kadar devam eder. Sonra Türkçe dersi başlar ve 40 dakika sürer, bu da 10:00'a kadar devam eder. Bu süreçte, teneffüs zamanı öğrencilerin ikinci teneffüsüne çıktıklarını ifade eder.",
+      "model_answer": "10:00",
+      "model_confidence": 100,
+      "raw_response": "{\n    \"reasoning\": \"Başlangıç saati 08:30'tır. İlk ders 40 dakika sürer, bu da 09:10'a kadar devam eder. Daha sonra 10 dakika teneffüs yapılır, bu da 09:20'a kadar devam eder. Sonra Türkçe dersi başlar ve 40 dakika sürer, bu da 10:00'a kadar devam eder. Bu süreçte, teneffüs zamanı öğrencilerin ikinci teneffüsüne çıktıklarını ifade eder.\",\n    \"answer\": \"10:00\",\n    \"confidence\": 100\n}",
+      "error": null
+    },
+    {
+      "question_id": "NR-2-009",
+      "category": "numerical_reasoning",
+      "difficulty": "medium",
+      "model_label": "qwen2.5-7b-instruct",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "model_reasoning": "Adım 1: Aşırı ısınma nedeniyle %30 düşüşü hesapla. Adım 2: Zorluk seviyesi artışı nedeniyle %10 kesintiyi hesapla. Adım 3: Sabitlenen kapasitenin değerini ve her adımda kullanılan bilgileri kullanarak başlangıç enerji kapasitesini bul.",
+      "model_answer": "400",
+      "model_confidence": 100,
+      "raw_response": "{\n    \"reasoning\": \"Adım 1: Aşırı ısınma nedeniyle %30 düşüşü hesapla. Adım 2: Zorluk seviyesi artışı nedeniyle %10 kesintiyi hesapla. Adım 3: Sabitlenen kapasitenin değerini ve her adımda kullanılan bilgileri kullanarak başlangıç enerji kapasitesini bul.\",\n    \"answer\": \"400\",\n    \"confidence\": 100\n}",
+      "error": null
+    },
+    {
+      "question_id": "CM-1-002",
+      "category": "compositional_reasoning",
+      "difficulty": "easy",
+      "model_label": "qwen2.5-7b-instruct",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "model_reasoning": "Adım 1: Bağlamdan bahsedilen ekibin yapısı ve görevleri hakkında bilgi edinildi.\nAdım 2: Takım Kaptanı unvanına sahip kişi, hem yazılım mühendisliği yeteneği hem de İspanyolca bilmesi gerekmektedir.\nAdım 3: Tekno-Global bünyesindeki çalışanlardan Deniz, İspanyolca bilen bir sistem analisttir ancak yazılım mühendisliği yeteneğine sahip değildir. Arda, yazılım mühendisliği yeteneğine sahip ancak İspanyolca bilmez. Gizem, yazılım mühendisliği yeteneğine ve akıcı İspanyolca konuşmasına sahiptir.\nSonuç olarak, Tekno-Global Ar-Ge ekibinin Takım Kaptanı Gizem olacaktır.",
+      "model_answer": "Gizem",
+      "model_confidence": 100,
+      "raw_response": "{\n    \"reasoning\": \"Adım 1: Bağlamdan bahsedilen ekibin yapısı ve görevleri hakkında bilgi edinildi.\\nAdım 2: Takım Kaptanı unvanına sahip kişi, hem yazılım mühendisliği yeteneği hem de İspanyolca bilmesi gerekmektedir.\\nAdım 3: Tekno-Global bünyesindeki çalışanlardan Deniz, İspanyolca bilen bir sistem analisttir ancak yazılım mühendisliği yeteneğine sahip değildir. Arda, yazılım mühendisliği yeteneğine sahip ancak İspanyolca bilmez. Gizem, yazılım mühendisliği yeteneğine ve akıcı İspanyolca konuşmasına sahiptir.\\nSonuç olarak, Tekno-Global Ar-Ge ekibinin Takım Kaptanı Gizem olacaktır.\",\n    \"answer\": \"Gizem\",\n    \"confidence\": 100\n}",
+      "error": null
+    },
+    {
+      "question_id": "CR-2-055",
+      "category": "causal_reasoning",
+      "difficulty": "medium",
+      "model_label": "qwen2.5-7b-instruct",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "model_reasoning": "Ahmet Bey televizyonu ve bilgisayarı kumandalarından kapatmış, ancak televizyonun altındaki kırmızı ışık ve mikrodalga fırınun saati tatil boyunca yanmaya devam etmiştir. Bu durum, cihazların tamamen kapatılmadığından veya sahiciye açıldığından kaynaklanan enerji tüketiminden kaynaklanmaktadır. Elektrik faturası gelmesi, bu küçük enerji tüketiminden dolayı gerçekleşmiştir.",
+      "model_answer": "Cihazların tamamen kapatılmadığından veya sahiciye açıldığından kaynaklanan enerji tüketiminden dolayı elektrik faturası geldi.",
+      "model_confidence": 95,
+      "raw_response": "{\n    \"reasoning\": \"Ahmet Bey televizyonu ve bilgisayarı kumandalarından kapatmış, ancak televizyonun altındaki kırmızı ışık ve mikrodalga fırınun saati tatil boyunca yanmaya devam etmiştir. Bu durum, cihazların tamamen kapatılmadığından veya sahiciye açıldığından kaynaklanan enerji tüketiminden kaynaklanmaktadır. Elektrik faturası gelmesi, bu küçük enerji tüketiminden dolayı gerçekleşmiştir.\",\n    \"answer\": \"Cihazların tamamen kapatılmadığından veya sahiciye açıldığından kaynaklanan enerji tüketiminden dolayı elektrik faturası geldi.\",\n    \"confidence\": 95\n}",
+      "error": null
+    },
+    {
+      "question_id": "LR-2-008",
+      "category": "logical_inference",
+      "difficulty": "medium",
+      "model_label": "qwen2.5-7b-instruct",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "model_reasoning": "1. Adım: Can ya da Teknisyen ya da İletişim Uzmanı olabilir. 2. Adım: Selin Biyolog olamaz. 3. Adım: Dalgıç, Teknisyen ve Pilot görevleri sadece erkekler üstlenebilir. Bu nedenle, Elif'in üssteki görevi Biyolog olmalıdır çünkü diğer erkekler (Can, Mert ve Emre) Dalgıç, Teknisyen veya İletişim Uzmanı görevlerine sahip olabilir ve Selin Biyolog olamaz.",
+      "model_answer": "Elif'in üssteki görevi Biyolog'dur.",
+      "model_confidence": 100,
+      "raw_response": "{\n    \"reasoning\": \"1. Adım: Can ya da Teknisyen ya da İletişim Uzmanı olabilir. 2. Adım: Selin Biyolog olamaz. 3. Adım: Dalgıç, Teknisyen ve Pilot görevleri sadece erkekler üstlenebilir. Bu nedenle, Elif'in üssteki görevi Biyolog olmalıdır çünkü diğer erkekler (Can, Mert ve Emre) Dalgıç, Teknisyen veya İletişim Uzmanı görevlerine sahip olabilir ve Selin Biyolog olamaz.\",\n    \"answer\": \"Elif'in üssteki görevi Biyolog'dur.\",\n    \"confidence\": 100\n}",
+      "error": null
+    }
+  ]
+}

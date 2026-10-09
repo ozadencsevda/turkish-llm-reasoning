@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "experiment_type": "closed_models_base",
+    "run_name": "smoke__gpt-4o-mini__smoke_v1",
+    "dataset_profile": "smoke",
+    "dataset_path": "/content/drive/MyDrive/turkish-llm-reasoning/data/base/smoke_base_v1.csv",
+    "dataset_sha256": "20d742f0441f593d59cc929c7c8d7b9cc9c1efbd10b8224dbc4519935e8e61f9",
+    "raw_dataset_rows": 5,
+    "usable_dataset_rows": 5,
+    "prompt_sha256": "1663da14c062cef14f02ba36cab60ef772b1e948f1ba9b8144be7f35d859e25a",
+    "model_label": "gpt-4o-mini",
+    "model_id": "gpt-4o-mini",
+    "provider": "openai",
+    "historical_model": true,
+    "temperature": 0,
+    "max_tokens": 2048,
+    "created_at": "2026-09-30T13:20:42.968535+00:00",
+    "completed_at": "2026-09-30T13:20:58.495246+00:00",
+    "status": "completed",
+    "record_count": 5
+  },
+  "records": [
+    {
+      "question_id": "TR-1-018",
+      "model_label": "gpt-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "provider": "openai",
+      "model_reasoning": "Öncelikle, Matematik dersi 08.30'da başlamış ve 40 dakika sürmüştür. Bu durumda Matematik dersi 09.10'da biter. Ardından 10 dakika teneffüs yapılacak, bu da 09.20'de sona erecek. Türkçe dersi 09.20'de başlayacak ve 40 dakika sürecek. Türkçe dersi 09.20'de başladığı için, 40 dakika sonra 10.00'da bitecektir. Öğrenciler ikinci teneffüse çıktıklarında saat 10.00'ı göstermektedir.",
+      "model_answer": "10.00",
+      "model_confidence": 100,
+      "raw_response": "{\n    \"reasoning\": \"Öncelikle, Matematik dersi 08.30'da başlamış ve 40 dakika sürmüştür. Bu durumda Matematik dersi 09.10'da biter. Ardından 10 dakika teneffüs yapılacak, bu da 09.20'de sona erecek. Türkçe dersi 09.20'de başlayacak ve 40 dakika sürecek. Türkçe dersi 09.20'de başladığı için, 40 dakika sonra 10.00'da bitecektir. Öğrenciler ikinci teneffüse çıktıklarında saat 10.00'ı göstermektedir.\",\n    \"answer\": \"10.00\",\n    \"confidence\": 100\n}",
+      "error": null
+    },
+    {
+      "question_id": "NR-2-009",
+      "model_label": "gpt-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "provider": "openai",
+      "model_reasoning": "Başlangıç enerji kapasitesi x birim. İlk olarak, silahın kapasitesi %30 oranında düşürülüyor. Bu durumda, silahın yeni kapasitesi 0.7x olur. Ardından, bu kapasiteden %10'luk bir kesinti yapılıyor. Yani, 0.7x'in %10'u kadar bir kesinti yapılacak. Bu kesinti 0.07x olur. Dolayısıyla, silahın son kapasitesi 0.7x - 0.07x = 0.63x olur. Bu kapasite, 315 birime sabitleniyor. Yani, 0.63x = 315 denklemi kurulur. Buradan x'i bulmak için her iki tarafı 0.63'e böleriz: x = 315 / 0.63. Hesapladığımızda x = 500 birim olarak bulunur.",
+      "model_answer": "500",
+      "model_confidence": 90,
+      "raw_response": "{\n    \"reasoning\": \"Başlangıç enerji kapasitesi x birim. İlk olarak, silahın kapasitesi %30 oranında düşürülüyor. Bu durumda, silahın yeni kapasitesi 0.7x olur. Ardından, bu kapasiteden %10'luk bir kesinti yapılıyor. Yani, 0.7x'in %10'u kadar bir kesinti yapılacak. Bu kesinti 0.07x olur. Dolayısıyla, silahın son kapasitesi 0.7x - 0.07x = 0.63x olur. Bu kapasite, 315 birime sabitleniyor. Yani, 0.63x = 315 denklemi kurulur. Buradan x'i bulmak için her iki tarafı 0.63'e böleriz: x = 315 / 0.63. Hesapladığımızda x = 500 birim olarak bulunur.\",\n    \"answer\": \"500\",\n    \"confidence\": 90\n}",
+      "error": null
+    },
+    {
+      "question_id": "CM-1-002",
+      "model_label": "gpt-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "provider": "openai",
+      "model_reasoning": "Bağlamda, Takım Kaptanı olarak atanacak kişinin sadece yazılım mühendisi kadrosunda olması gerektiği belirtiliyor. Deniz, kıdemli bir sistem analisti olduğu için yazılım mühendisi kadrosunda değil. Arda, yazılım mühendisi ama İspanyolca bilmiyor. Gizem ise yazılım mühendisi ve akıcı İspanyolca konuşuyor. Bu nedenle, Gizem Takım Kaptanı olarak atanacaktır.",
+      "model_answer": "Gizem",
+      "model_confidence": 90,
+      "raw_response": "{\n    \"reasoning\": \"Bağlamda, Takım Kaptanı olarak atanacak kişinin sadece yazılım mühendisi kadrosunda olması gerektiği belirtiliyor. Deniz, kıdemli bir sistem analisti olduğu için yazılım mühendisi kadrosunda değil. Arda, yazılım mühendisi ama İspanyolca bilmiyor. Gizem ise yazılım mühendisi ve akıcı İspanyolca konuşuyor. Bu nedenle, Gizem Takım Kaptanı olarak atanacaktır.\",\n    \"answer\": \"Gizem\",\n    \"confidence\": 90\n}",
+      "error": null
+    },
+    {
+      "question_id": "CR-2-055",
+      "model_label": "gpt-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "provider": "openai",
+      "model_reasoning": "Ahmet Bey, cihazları kumandalarından kapatmış olsa da, bu durum cihazların tamamen kapandığı anlamına gelmez. Televizyonun altındaki küçük kırmızı ışık ve mikrodalga fırının dijital saati, cihazların fişleri prizde olduğu için enerji tüketmeye devam ettiğini gösterir. Bu nedenle, cihazlar kapalı görünmesine rağmen elektrik faturası gelmesinin nedeni, cihazların fişlerinin prizde kalması ve bu durumun enerji tüketimini sürdürmesidir.",
+      "model_answer": "Cihazlar kumandadan kapatılmış olsa da fişleri prizde kaldığı için enerji tüketimi devam etmiştir.",
+      "model_confidence": 90,
+      "raw_response": "{\n    \"reasoning\": \"Ahmet Bey, cihazları kumandalarından kapatmış olsa da, bu durum cihazların tamamen kapandığı anlamına gelmez. Televizyonun altındaki küçük kırmızı ışık ve mikrodalga fırının dijital saati, cihazların fişleri prizde olduğu için enerji tüketmeye devam ettiğini gösterir. Bu nedenle, cihazlar kapalı görünmesine rağmen elektrik faturası gelmesinin nedeni, cihazların fişlerinin prizde kalması ve bu durumun enerji tüketimini sürdürmesidir.\",\n    \"answer\": \"Cihazlar kumandadan kapatılmış olsa da fişleri prizde kaldığı için enerji tüketimi devam etmiştir.\",\n    \"confidence\": 90\n}",
+      "error": null
+    },
+    {
+      "question_id": "LR-2-008",
+      "model_label": "gpt-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "provider": "openai",
+      "model_reasoning": "1. Can, ya İletişim Uzmanı ya da Teknisyendir. (Bu bilgi, Can'ın görevini kısıtlar.) 2. Selin kesinlikle Biyolog değildir. (Bu bilgi, Selin'in görevini kısıtlar.) 3. Dalgıç, Teknisyen ve Pilot görevlerini sadece erkek personeller üstlenmektedir. (Bu bilgi, Elif'in görevini belirlemekte yardımcı olur.) Can'ın İletişim Uzmanı veya Teknisyen olması durumunda, Selin Biyolog olamaz. Bu durumda, Selin'in görevini belirlemek için diğer bilgileri kullanmalıyız. Can İletişim Uzmanı ise, Selin Biyolog olamaz ve Elif'in görevi Dalgıç, Teknisyen veya Pilot olamaz. Dolayısıyla, Elif Biyolog olmalıdır. Eğer Can Teknisyen ise, Selin İletişim Uzmanı olamaz ve Elif yine Biyolog olmalıdır. Sonuç olarak, Elif'in görevi Biyologdur.",
+      "model_answer": "Biyolog",
+      "model_confidence": 90,
+      "raw_response": "{\n    \"reasoning\": \"1. Can, ya İletişim Uzmanı ya da Teknisyendir. (Bu bilgi, Can'ın görevini kısıtlar.) 2. Selin kesinlikle Biyolog değildir. (Bu bilgi, Selin'in görevini kısıtlar.) 3. Dalgıç, Teknisyen ve Pilot görevlerini sadece erkek personeller üstlenmektedir. (Bu bilgi, Elif'in görevini belirlemekte yardımcı olur.) Can'ın İletişim Uzmanı veya Teknisyen olması durumunda, Selin Biyolog olamaz. Bu durumda, Selin'in görevini belirlemek için diğer bilgileri kullanmalıyız. Can İletişim Uzmanı ise, Selin Biyolog olamaz ve Elif'in görevi Dalgıç, Teknisyen veya Pilot olamaz. Dolayısıyla, Elif Biyolog olmalıdır. Eğer Can Teknisyen ise, Selin İletişim Uzmanı olamaz ve Elif yine Biyolog olmalıdır. Sonuç olarak, Elif'in görevi Biyologdur.\",\n    \"answer\": \"Biyolog\",\n    \"confidence\": 90\n}",
+      "error": null
+    }
+  ]
+}

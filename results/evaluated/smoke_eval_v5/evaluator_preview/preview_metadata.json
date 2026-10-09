@@ -1,0 +1,40 @@
+{
+  "source_run_label": "smoke_v1",
+  "evaluation_label": "smoke_eval_v5",
+  "purpose": "Smoke-only evaluator preview; no evaluator or threshold is selected.",
+  "semantic_answer_count": 19,
+  "reasoning_claim_count": 226,
+  "semantic_evaluators": {
+    "jina_v3": {
+      "revision": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6"
+    },
+    "multilingual_mpnet": {
+      "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5"
+    }
+  },
+  "nli_evaluators": {
+    "mdeberta_xnli": {
+      "revision": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+      "length_audit": {
+        "model_limit": 512,
+        "pair_count": 226,
+        "maximum_observed": 218,
+        "mean_observed": 153.9203539823009,
+        "over_limit_count": 0
+      }
+    },
+    "xlmr_xnli": {
+      "revision": "b227ee8435ceadfa86dc1368a34254e2838bf242",
+      "length_audit": {
+        "model_limit": 512,
+        "pair_count": 226,
+        "maximum_observed": 203,
+        "mean_observed": 135.9070796460177,
+        "over_limit_count": 0
+      }
+    }
+  },
+  "human_validated": false,
+  "semantic_threshold_selected": false,
+  "primary_evaluator_selected": false
+}

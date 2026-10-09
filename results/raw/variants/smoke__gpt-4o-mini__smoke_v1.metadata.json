@@ -1,0 +1,23 @@
+{
+  "run_name": "smoke__gpt-4o-mini__smoke_v1",
+  "experiment_type": "closed_models_variants",
+  "dataset_profile": "smoke",
+  "dataset_path": "/content/drive/MyDrive/turkish-llm-reasoning/data/variants/smoke_variants_v1.csv",
+  "dataset_sha256": "08f38dc18431f08a3574af59042aefaca717015c39133a254b21a551934a2443",
+  "raw_dataset_rows": 15,
+  "usable_dataset_rows": 15,
+  "unique_base_questions": 5,
+  "prompt_sha256": "1663da14c062cef14f02ba36cab60ef772b1e948f1ba9b8144be7f35d859e25a",
+  "model_label": "gpt-4o-mini",
+  "model_id": "gpt-4o-mini",
+  "provider": "openai",
+  "historical_model": true,
+  "temperature": 0,
+  "max_tokens": 2048,
+  "created_at": "2026-09-30T16:09:53.958297+00:00",
+  "completed_at": "2026-09-30T16:10:42.508009+00:00",
+  "status": "completed",
+  "record_count": 15,
+  "successful_records": 15,
+  "error_records": 0
+}
